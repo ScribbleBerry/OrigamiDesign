@@ -1,0 +1,44 @@
+body{
+    align-content: space-around;
+    align-items: flex-start;
+}
+h1{
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    background-color: turquoise;
+    color: teal;
+
+}
+.header{
+    background-color: powderblue  ;
+    display:flex;
+    justify-content:space-around;
+}
+.grid{
+    display: flex;
+    flex-wrap: column wrap;
+    justify-content: space-evenly;
+}
+.facts{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+}
+.para{
+    background-color: darkslateblue;
+    flex-wrap: wrap;
+    font-family:monospace;
+    color:floralwhite;
+    text-align: center;
+    border:tan;
+    border-style: dotted;
+}
+.items{
+    margin-left: 600px;
+}
+.items:hover img{
+    opacity: 0.3333;
+    }
